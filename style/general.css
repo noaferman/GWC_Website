@@ -56,7 +56,7 @@
 
     header{
         overflow: hidden;
-        background-color: #AEE0E0;
+        background-color: #003046;
         margin: auto;
     }
 
@@ -125,13 +125,14 @@
     .container{
         position: relative;
         text-align: center;
-        color: #01786F;
+        color: #FDD946;
     }
 
     .textOverlay{
         margin-top: 300px;
         font-family: "Roboto Light";
         font-size: 90px;
+        font-weight: bold;
         text-align: center;
         position: absolute;
         top: 50%;
