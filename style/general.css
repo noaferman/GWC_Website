@@ -83,11 +83,11 @@
     }
 
     a.active {
-        color: #FDD946;
+        color: #43D6B9;
     }
 
     a:hover {
-        color: white;
+        color: #FDD946;
     }
 
     .gwclogo {
