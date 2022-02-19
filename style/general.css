@@ -43,8 +43,8 @@
 
     #outline{
         padding-bottom: 16px;
-        -webkit-text-stroke-width: 2px;
-        color:  #FDD946;
+        /*-webkit-text-stroke-width: 2px;*/
+        color: #0C6B68;
     }
 
     body{
@@ -100,7 +100,7 @@
     /*Style Images*/
     .imageLeft {
         opacity: 0.4;
-        margin-top : 50px;
+        margin-top : 0px;
         height : 500px;
         width : 50%;
         float: left;
@@ -108,7 +108,7 @@
 
     .imageRight {
         opacity: 0.4;
-        margin-top: 50px;
+        margin-top: 0px;
         height : 500px;
         width : 50%;
         float:right;
