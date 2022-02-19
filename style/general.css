@@ -35,7 +35,7 @@
     /*Paragraph text*/
     p {
         margin: 10px 50px 10px 50px;
-        font-family: Raleway, sans-serif;
+        font-family: "Roboto Thin";
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -44,7 +44,7 @@
     #outline{
         padding-bottom: 16px;
         -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color:  #FDD946;
+        color:  #FDD946;
     }
 
     body{
@@ -125,6 +125,7 @@
         min-height: 100vh;
         width: 100%;
         display: flex;
+        justify-content: center;
         position: relative;
         text-align: center;
         color: #FDD946;
@@ -132,7 +133,7 @@
 
     .textOverlay{
         margin-top: 300px;
-        font-family: "Roboto Light";
+        font-family: "Roboto Bold";
         font-size: 90px;
         font-weight: bold;
         text-align: center;
