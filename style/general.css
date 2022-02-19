@@ -35,7 +35,7 @@
     /*Paragraph text*/
     p {
         margin: 10px 50px 10px 50px;
-        font-family: "Roboto Thin";
+        font-family: Raleway, sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -125,7 +125,6 @@
         min-height: 100vh;
         width: 100%;
         display: flex;
-        justify-content: center;
         position: relative;
         text-align: center;
         color: #FDD946;
@@ -133,7 +132,7 @@
 
     .textOverlay{
         margin-top: 300px;
-        font-family: "Roboto Bold";
+        font-family: "Roboto Light";
         font-size: 90px;
         font-weight: bold;
         text-align: center;
