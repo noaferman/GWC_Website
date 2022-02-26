@@ -59,10 +59,6 @@
         overflow: hidden;
         background-color: #003046;
         margin: auto;
-        position: fixed;
-        right: 0;
-        left: 0;
-        z-index: 999;
     }
 
     nav a {
