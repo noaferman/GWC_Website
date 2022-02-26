@@ -59,6 +59,10 @@
         overflow: hidden;
         background-color: #003046;
         margin: auto;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
     }
 
     nav a {
@@ -74,17 +78,13 @@
 
     body {
         margin: auto;
-        padding: 75px;
+        padding: 0px;
         font-family: 'Open Sans', sans-serif;
     }
 
     nav {
         margin: auto;
         text-align: center;
-        position: fixed;
-        right: 0;
-        left: 0;
-        z-index: 999;
     }
 
     a.active {
