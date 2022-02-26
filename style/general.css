@@ -74,13 +74,17 @@
 
     body {
         margin: auto;
-        padding: 0px;
+        padding: 75px;
         font-family: 'Open Sans', sans-serif;
     }
 
     nav {
         margin: auto;
         text-align: center;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
     }
 
     a.active {
@@ -124,7 +128,7 @@
 
     /*Text Overlay*/
     .container{
-        position: relative;
+        position: absolute;
         text-align: center;
         color: #FDD946;
     }
