@@ -1,0 +1,142 @@
+/*STYLE TEXT + BODY*/
+
+/*Header*/
+h1 {
+    font-family: Raleway, sans-serif;
+    padding-top: 20px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+/* Sub-heaading*/
+h2{
+    margin: 10px 50px 10px 50px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.center {
+    text-align:center;
+}
+
+/*Sub-heaading */
+h3 {
+    margin: 10px 50px 10px 50px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+/*Paragraph text*/
+p {
+    margin: 10px 50px 10px 50px;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#outline{
+    padding-bottom: 16px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #43D6B9;
+    color: #0C6B68;
+}
+
+body{
+    background : linear-gradient(45deg, #DCF5F3, #AEE0E0);
+}
+
+/*STYLE NAV BAR*/
+
+header{
+    overflow: hidden;
+    background-color: #003046;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 23px;
+    padding: 20px 70px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+}
+
+a.active {
+    color: #43D6B9;
+}
+
+a:hover {
+    color: #FDD946;
+}
+
+.gwclogo {
+    size: auto;
+    width: 40px;
+    height: 40px;
+}
+
+
+/* STYLE MEDIA FOR ABOUT US PAGE */
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* each individual box within the columns*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}

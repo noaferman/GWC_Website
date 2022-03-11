@@ -101,7 +101,7 @@
     /*Style Images*/
     .imageLeft {
         opacity: 0.4;
-        margin-top : 0px;
+        margin-top : 50px;
         height : 500px;
         width : 50%;
         float: left;
@@ -109,7 +109,7 @@
 
     .imageRight {
         opacity: 0.4;
-        margin-top: 0px;
+        margin-top: 50px;
         height : 500px;
         width : 50%;
         float:right;
@@ -129,12 +129,12 @@
     }
 
     .textOverlay{
-        margin-top: 100px;
+        margin-top: 300px;
         font-family: Raleway, sans-serif;
         font-size: 90px;
         font-weight: bold;
         text-align: center;
-        position: relative;
+        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -144,8 +144,6 @@
     /* Create three unequal columns that floats next to each other */
     .column {
         float: left;
-        width: 47%;
-        margin-bottom: 10px;
         padding: 10px;
     }
 
@@ -173,32 +171,5 @@
         }
     }
 
-/* STYLE MEDIA FOR ABOUT US PAGE */
-    /* each individual box within the columns*/
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        margin: 8px;
-    }
-    .container2 {
-        padding: 0 16px;
-    }
 
-    .container2::after{
-        content: "";
-        clear: both;
-        display: table;
-    }
-
-    .about-section {
-        padding: 50px;
-        text-align: center;
-        background-color: #474e5d;
-        color: white;
-    }
-    @media screen and (max-width: 650px) {
-        .column {
-            width: 100%;
-            display: block;
-        }
-    }
 
