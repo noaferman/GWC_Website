@@ -2,6 +2,7 @@
 
 /*Header*/
 h1 {
+    color: #0C6B68;
     font-family: Raleway, sans-serif;
     padding-top: 20px;
     font-size: 35px;
@@ -12,6 +13,7 @@ h1 {
 
 /* Sub-heaading*/
 h2{
+    color: #0C6B68;
     margin: 10px 50px 10px 50px;
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -25,6 +27,7 @@ h2{
 
 /*Sub-heaading */
 h3 {
+    color: #0C6B68;
     margin: 10px 50px 10px 50px;
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -49,7 +52,9 @@ p {
 }
 
 body{
-    background : linear-gradient(45deg, #DCF5F3, #AEE0E0);
+    background : radial-gradient(
+            at top right,
+            #DCF5F3, #FEEFEE, #FFF3E8, #FFF9E2);
 }
 
 /*STYLE NAV BAR*/
@@ -99,41 +104,47 @@ a:hover {
 
 /* STYLE MEDIA FOR ABOUT US PAGE */
 
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 /* Create three equal columns that floats next to each other */
 .column {
-    float: left;
+    float:left;
     width: 33.33%;
-    margin-bottom: 10px;
     padding: 10px;
 }
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 /* each individual box within the columns*/
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
 }
-.container {
-    padding: 0 16px;
+.card:hover{
+    box-shadow: 0 2px 1.5px 0 #CECECE;
 }
-
-.container::after, .row::after {
+.container2 {
+    padding: 0 16px;
+    text-align: center;
+}
+/* Center image inside box*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+/* Clear floats after the columns */
+.container2::after, .row::after {
     content: "";
     clear: both;
     display: table;
 }
 
-.about-section {
-    padding: 50px;
-    text-align: center;
-    background-color: #474e5d;
-    color: white;
-}
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 650px) {
     .column {
         width: 100%;
