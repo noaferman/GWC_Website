@@ -124,9 +124,16 @@ html {
 .card {
     margin: 8px;
 }
-.card:hover{
-    box-shadow: 0 2px 1.5px 0 #CECECE;
+.card_inner {
+    position: relative;
+    text-align: center;
+    transition: transform 0.5s;
+    opacity: 0;
 }
+.card:hover .card_inner{
+    opacity: 1;
+}
+
 .container2 {
     padding: 0 16px;
     text-align: center;
